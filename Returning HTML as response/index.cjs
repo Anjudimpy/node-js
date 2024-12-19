@@ -7,4 +7,4 @@ const server = http.createServer((req,res) => {
 });
 
 server.listen(3100);
-console.log("server is listing on 3100")
+console.log("server is listing on 3100.")
