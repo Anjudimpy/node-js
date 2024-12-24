@@ -6,15 +6,15 @@ async function sendMail() {
         service: 'gmail',
         auth: {
            user:'21352007@pondiuni.ac.in',
-           pass:'dcnqlrfymxwzbtjs',
+           pass:'',
         },
     });
 
     const mailOptions = {
         from:'21352007@pondiuni.ac.in',
-        to:'anjukr55555@gmail.com',
+        to:'timotysoren03@gmail.com',
         subject:"Welcome to NodeJS App",
-        text:'This is an email using nodemailer'
+        text:'Hello, Timothy'
     };
 
     //3. send email
