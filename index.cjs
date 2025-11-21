@@ -5,6 +5,6 @@ const server = http.createServer((req,res) => {
     const data = fs.readFileSync('index.html').toString()
     res.end(data)
 })
-
+console.log("hello")
 server.listen(3100);
-console.log("Server is listing on 3100");
+console.log("Server is listing on 3100.");

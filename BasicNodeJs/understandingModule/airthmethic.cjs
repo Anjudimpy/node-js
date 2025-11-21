@@ -6,9 +6,9 @@ exports.sum =(x,y)=>{
     return x+y;
 }
 
-function div(x,y){
-    return x/y;
-}
+// export function div(x,y){
+//     return x/y;
+// }
 
 //1. Comman Js Module
 // module.exports = {
