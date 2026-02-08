@@ -1,0 +1,51 @@
+# ===============================
+# Node.js
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+
+# ===============================
+# Build / Minified files
+# ===============================
+public/minified/
+dist/
+build/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Editor / IDE
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Coverage / Cache
+# ===============================
+coverage/
+.cache/
+
+# ===============================
+# Optional (Lock files)
+# Uncomment if you don't want to track lock files
+# ===============================
+# package-lock.json
+# yarn.lock
